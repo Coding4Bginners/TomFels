@@ -1,29 +1,33 @@
-      body {
-        font-family: 'Open Sans', sans-serif;
-        color: gray;
-      }
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+}
       
-      a, a:hover, a:active { 
-        text-decoration: none;
-        color: gray;
-      } 
+a, a:hover, a:active { 
+  text-decoration: none;
+  color: gray;
+} 
 
+.jumbotron .container {
+}
 
 .jumbotron {
-  background-image:url('tfels_catalpa_christis_w1600px.jpg');
-  height: 300px;
+  position: relative;
+  background-image: url('tfels_catalpa_christies_horizontal.jpg') /*no-repeat center center*/;
+/*  top:50px;*/
+/*  height: 300px;*/
+/*  height: 100%; */
+/*  background-color: transparent !important; */
+/*  background:none;*/
+/*  nice try...*/
   background-repeat: no-repeat;
   background-size: cover;
 }
-.jumbotron .container {
-  position:relative;
-  top:50px;
-}
-      
-      
+
+
 /*    Fix me! The navbar text color is not changing for me... */
       .navbar {
-        color: darksalmon;
+        color: darksalmon !important;
       }
       
 /*      Fix me! Need to set margins around text like a bootstrap-using adult... */
